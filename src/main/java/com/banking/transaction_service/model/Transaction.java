@@ -14,13 +14,16 @@ public class Transaction {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Long AccountId;
 
-    private Long accountId;
-
-    private String transactionType; // e.g. DEPOSIT or WITHDRAW
-
+    private Long fromAccountId; // Nullable for deposits
+    private Long toAccountId; // Nullable for withdrawals
     private Double amount;
 
-    private LocalDateTime transactionTime;
+    private LocalDateTime timestamp;
+
+    private TransactionType type; // "DEPOSIT", "WITHDRAWAL", "TRANSFER"
+    private String status; // "SUCCESS", "FAILED"
+
+    private String description;
 }

@@ -5,9 +5,10 @@ import org.springframework.stereotype.Repository;
 import com.banking.transaction_service.model.Transaction;
 
 import java.util.List;
-
 @Repository
 public interface TransactionRepository extends JpaRepository<Transaction, Long> {
-    List<Transaction> findByAccountId(Long accountId);
+List<Transaction> findByFromAccountIdOrToAccountId(Long fromAccountId, Long toAccountId);
 }
+
+
 
