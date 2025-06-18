@@ -2,11 +2,5 @@ spring:
   application:
     name: transaction-service
   config:
-    import: optional:configserver:https://config-server-production-dc43.up.railway.app
+    import: optional:configserver:http://localhost:8888
 
-eureka:
-  client:
-    service-url:
-      defaultZone: https://discovery-server-production-5f28.up.railway.app/eureka/
-  instance:
-    prefer-ip-address: true
