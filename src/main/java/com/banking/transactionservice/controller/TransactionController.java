@@ -1,10 +1,10 @@
-package com.banking.transaction_service.controller;
+package com.banking.transactionservice.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import com.banking.transaction_service.model.Transaction;
-import com.banking.transaction_service.service.TransactionService;
+import com.banking.transactionservice.model.Transaction;
+import com.banking.transactionservice.service.TransactionService;
 
 import java.util.List;
 

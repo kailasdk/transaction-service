@@ -1,8 +1,8 @@
-package com.banking.transaction_service.repository;
+package com.banking.transactionservice.repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.banking.transaction_service.model.Transaction;
+import com.banking.transactionservice.model.Transaction;
 
 import java.util.List;
 @Repository

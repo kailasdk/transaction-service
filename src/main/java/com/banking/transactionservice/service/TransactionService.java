@@ -1,12 +1,12 @@
-package com.banking.transaction_service.service;
+package com.banking.transactionservice.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.banking.transaction_service.client.AccountClient;
-import com.banking.transaction_service.model.Transaction;
-import com.banking.transaction_service.model.TransactionType;
-import com.banking.transaction_service.repository.TransactionRepository;
+import com.banking.transactionservice.client.AccountClient;
+import com.banking.transactionservice.model.Transaction;
+import com.banking.transactionservice.model.TransactionType;
+import com.banking.transactionservice.repository.TransactionRepository;
 import java.time.LocalDateTime;
 import java.util.List;
 

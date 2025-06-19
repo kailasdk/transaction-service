@@ -1,4 +1,4 @@
-package com.banking.transaction_service.client;
+package com.banking.transactionservice.client;
 
 import org.springframework.stereotype.Component;
 

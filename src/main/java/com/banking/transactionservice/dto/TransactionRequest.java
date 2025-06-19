@@ -1,6 +1,6 @@
-package com.banking.transaction_service.dto;
+package com.banking.transactionservice.dto;
 
-import com.banking.transaction_service.model.TransactionType;
+import com.banking.transactionservice.model.TransactionType;
 
 import lombok.Data;
 
