@@ -21,6 +21,7 @@ public class TransactionController {
 
     @GetMapping
     public List<Transaction> getAllTransactions() {
+        System.err.println("hit");
         return service.getAll();
     }
 
